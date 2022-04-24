@@ -33,7 +33,7 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "Crystal",
+	Name = "Crystal Beneaths",
 	Callback = function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3562, 1554, 44)
   	end    
