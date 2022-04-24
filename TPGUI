@@ -15,6 +15,11 @@ local Tab2 = Window:MakeTab({
 	PremiumOnly = false
 })
 
+local Tab3 = Window:MakeTab({
+	Name = "Moonbase TPs",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
 
 OrionLib:MakeNotification({
 	Name = "Script Executed!",
@@ -261,5 +266,54 @@ Tab2:AddButton({
 	Name = "Smooth Depths",
 	Callback = function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(20467, 10060, 6141)
+  	end    
+})
+
+Tab3:AddButton({
+	Name = "Spawn",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0, 3, -99)
+  	end    
+})
+
+Tab3:AddButton({
+	Name = "Bright Cove",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4429, 390, 3005)
+  	end    
+})
+
+Tab3:AddButton({
+	Name = "Liquified Outpost",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4273, 1665, -2459)
+  	end    
+})
+
+Tab3:AddButton({
+	Name = "Enigmatic Caverns",	
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-6806, 2708, -272)
+  	end    
+})
+
+Tab3:AddButton({
+	Name = "Saturn",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-8586, 7988, 1909)
+  	end    
+})
+
+Tab3:AddButton({
+	Name = "Cryogenesis",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(733, 450, -12970)
+  	end    
+})
+
+Tab3:AddButton({
+	Name = "Prismed Islopolis",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3132, 1958, -5710)
   	end    
 })
