@@ -27,6 +27,12 @@ local Tab4 = Window:MakeTab({
 	PremiumOnly = false
 })
 
+local Tab5 = Window:MakeTab({
+	Name = "Death Challenge",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
 OrionLib:MakeNotification({
 	Name = "Script Executed!",
 	Content = "Script made by Dignity#5243",
@@ -359,5 +365,75 @@ Tab4:AddButton({
 	Name = "Volcano",
 	Callback = function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-383, -10, -59)
+  	end    
+})
+
+Tab5:AddButton({
+	Name = "Spawn",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-134, 4, -135)
+  	end    
+})
+
+Tab5:AddButton({
+	Name = "Cave",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1122, 2492, -1377)
+  	end    
+})
+
+Tab5:AddButton({
+	Name = "Crystal Beneaths",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3559, 1554, 45)
+  	end    
+})
+
+Tab5:AddButton({
+	Name = "Iron Shafts",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1260, -31, -2312)
+  	end    
+})
+
+Tab5:AddButton({
+	Name = "Golden Quarry",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1669, 978, 5097)
+  	end    
+})
+
+Tab5:AddButton({
+	Name = "Quartz Walkway",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3014, -3135, 10935)
+  	end    
+})
+
+Tab5:AddButton({
+	Name = "Jade Forest",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-13493, 11273, -12670)
+  	end    
+})
+
+Tab5:AddButton({
+	Name = "Obsidian Abyss",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-6705, 5425, -841)
+  	end    
+})
+
+Tab5:AddButton({
+	Name = "Colour Temple",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-402, 7089, 4954)
+  	end    
+})
+
+Tab5:AddButton({
+	Name = "Extraterrestrial Orbit",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(10393, 7281, -8104)
   	end    
 })
