@@ -21,6 +21,12 @@ local Tab3 = Window:MakeTab({
 	PremiumOnly = false
 })
 
+local Tab4 = Window:MakeTab({
+	Name = "Nostalgia TPs",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
 OrionLib:MakeNotification({
 	Name = "Script Executed!",
 	Content = "Script made by Dignity#5243",
@@ -32,8 +38,6 @@ Tab1:AddButton({
 	Callback = function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-124, 4, -133)
   	end    
-
-
 })
 
 Tab1:AddButton({
@@ -41,8 +45,6 @@ Tab1:AddButton({
 	Callback = function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1837, 21, 374)
   	end    
-
-
 })
 
 Tab1:AddButton({
@@ -179,7 +181,14 @@ Tab2:AddButton({
 })
 
 Tab2:AddButton({
-	Name = "Cave",
+	Name = "Recovery Hall",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1837, 21, 374)
+  	end    
+})
+
+Tab2:AddButton({
+	Name = "Caves",
 	Callback = function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1123, 2492, -1376)
   	end    
@@ -193,7 +202,7 @@ Tab2:AddButton({
 })
 
 Tab2:AddButton({
-	Name = "Iron Shaft",
+	Name = "Iron Shafts",
 	Callback = function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1317, -21, -2300)
   	end    
@@ -315,5 +324,40 @@ Tab3:AddButton({
 	Name = "Prismed Islopolis",
 	Callback = function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3132, 1958, -5710)
+  	end    
+})
+
+Tab4:AddButton({
+	Name = "Spawn",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1, 4, -107)
+  	end    
+})
+
+Tab4:AddButton({
+	Name = "Farm",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-42, 3, -55)
+  	end    
+})
+
+Tab4:AddButton({
+	Name = "Cave",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3, 17, -67)
+  	end    
+})
+
+Tab4:AddButton({
+	Name = "Desert",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(137, -17, -82)
+  	end    
+})
+
+Tab4:AddButton({
+	Name = "Volcano",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-383, -10, -59)
   	end    
 })
