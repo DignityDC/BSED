@@ -138,7 +138,7 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "White Space",
+	Name = "Purified Illusions",
 	Callback = function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2438, 13781, 787)
   	end    
