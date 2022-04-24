@@ -4,7 +4,7 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 local Window = OrionLib:MakeWindow({Name = "Button Simulator ED"})
 
 local Tab = Window:MakeTab({
-	Name = "Teleports",
+	Name = "Base Teleports",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
