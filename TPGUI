@@ -1,0 +1,152 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+
+local Window = OrionLib:MakeWindow({Name = "Button Simulator ED"})
+
+local Tab = Window:MakeTab({
+	Name = "Teleports",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+OrionLib:MakeNotification({
+	Name = "Script Executed!",
+	Content = "Script made by Dignity#5243",
+	Time = 5
+})
+
+Tab:AddButton({
+	Name = "Spawn",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-124, 4, -133)
+  	end    
+
+
+})
+
+Tab:AddButton({
+	Name = "Caves",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1124, 2492, -1377)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Crystal",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3562, 1554, 44)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Iron Shafts",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1259, -31, -2312)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Golden Quarry",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1673, 973, 5099)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Quartz Walkway",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3015, -3136, 10946)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Jade Forest",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-13492, 11273, -12658)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Obsidian Abyss",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-6707, 5529, -809)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Colour Temple",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-406, 7089, 4953)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Extraterrestrial Orbit",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(10389, 7281, -8103)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Empyrean Islands",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(10163, 4596, 16119)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Uranium Wastelands",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-14006, 327, -25542)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Smooth Depths",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(20467, 10060, 6146)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Icy Palace",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-44052, 12851, 57257)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Floating Purgatory",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-78012, 15907, 14153)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Tetratum",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-10678, 7778, 14382)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Voltaic Sector",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(83, 7148, 8955)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "White Space",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2438, 13781, 787)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Minty Grooves",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1700, 399, 1995)
+  	end    
+})
