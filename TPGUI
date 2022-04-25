@@ -33,6 +33,12 @@ local Tab5 = Window:MakeTab({
 	PremiumOnly = false
 })
 
+local Tab6 = Window:MakeTab({
+	Name = "Geode TPs",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
 OrionLib:MakeNotification({
 	Name = "Script Executed!",
 	Content = "Script made by Dignity#5243",
@@ -435,5 +441,166 @@ Tab5:AddButton({
 	Name = "Extraterrestrial Orbit",
 	Callback = function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(10393, 7281, -8104)
+  	end    
+})
+
+Tab6:AddButton({
+	Name = "Stone Geode",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-214, 4, -214)
+  	end    
+})
+
+Tab6:AddButton({
+	Name = "Crystal Geode",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3631, 1554, 70)
+  	end    
+})
+
+Tab6:AddButton({
+	Name = "Iron Geode",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1282, 17, -2212)
+  	end    
+})
+
+Tab6:AddButton({
+	Name = "Gold Geode",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1674, 974, 5176)
+  	end    
+})
+
+Tab6:AddButton({
+	Name = "Quartz Geode",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3031, -3126, 11181)
+  	end    
+})
+
+Tab6:AddButton({
+	Name = "Jade Geode",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-330, 4, -83)
+  	end    
+})
+
+Tab6:AddButton({
+	Name = "Diamond Geode",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(10281, 7293, -8149)
+  	end    
+})
+
+Tab6:AddButton({
+	Name = "Ion Geode",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(10325, 7288, -8024)
+  	end    
+})
+
+Tab6:AddButton({
+	Name = "Uranium Geode",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-114, 4, -298)
+  	end    
+})
+
+Tab6:AddButton({
+	Name = "Bismuth Geode",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(20505, 10059, 6191)
+  	end    
+})
+
+Tab6:AddButton({
+	Name = "Orpiment Geode",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1915, 66, 401)
+  	end    
+})
+
+Tab6:AddButton({
+	Name = "Mint Geode",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1708, 399, 2099)
+  	end    
+})
+
+Tab6:AddButton({
+	Name = "Obsidian Geode",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-6735, 5278, -797)
+  	end    
+})
+
+Tab6:AddButton({
+	Name = "Ruby Geode",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-401, 7090, 4921)
+  	end    
+})
+
+Tab6:AddButton({
+	Name = "Emerald Geode",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-552, 7090, 4982)
+  	end    
+})
+
+Tab6:AddButton({
+	Name = "Sapphire Geode",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-552, 7091, 5021)
+  	end    
+})
+
+Tab6:AddButton({
+	Name = "Starlight Geode",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(10343, 7292, -8142)
+  	end    
+})
+
+Tab6:AddButton({
+	Name = "Boracite Geode",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-44025, 12851, 57259)
+  	end    
+})
+
+Tab6:AddButton({
+	Name = "Nissonite Geode",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-44074, 12851, 57259)
+  	end    
+})
+
+Tab6:AddButton({
+	Name = "Emoji Geode",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-13566, 11256, -12305)
+  	end    
+})
+
+Tab6:AddButton({
+	Name = "Sacred Geode",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-13772, 694, -25875)
+  	end    
+})
+-- Event Buttons
+Tab6:AddButton({
+	Name = "Spawn Event 1",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-165, 5, -113)
+  	end    
+})
+
+Tab6:AddButton({
+	Name = "Spawn Event 2",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-183, 4, -173)
   	end    
 })
