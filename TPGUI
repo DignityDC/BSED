@@ -39,6 +39,13 @@ local Tab6 = Window:MakeTab({
 	PremiumOnly = false
 })
 
+local TabLP = Window:MakeTab({
+	Name = "Localplayer",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
 OrionLib:MakeNotification({
 	Name = "Script Executed!",
 	Content = "Script made by Dignity#5243",
@@ -604,5 +611,40 @@ Tab6:AddButton({
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-183, 4, -173)
   	end    
 })
+
+TabLP:AddButton({
+	Name = "Infinite Yield",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+  	end    
+})
+
+TabLP:AddSlider({
+    Name = "Walkspeed",
+    Min = 10,
+    Max = 300,
+    Default = 16,
+    Color = Color3.fromRGB(255,255,255),
+    Increment = 1,
+    ValueName = "Walkspeed",
+    Callback = function(Value)
+	game:GetService("Players").LocalPlayer.Character.Humanoid.WalkSpeed = Value
+    end
+    
+    })
+    
+    TabLP:AddSlider({
+    Name = "Jumppower",
+    Min = 1,
+    Max = 1000,
+    Default = 50,
+    Color = Color3.fromRGB(255,255,255),
+    Increment = 1,
+    ValueName = "Jumppower",
+    Callback = function(Value)
+	game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
+    end
+    
+    })
 
 OrionLib:Init()
