@@ -619,6 +619,13 @@ TabLP:AddButton({
   	end    
 })
 
+TabLP:AddButton({
+	Name = "FPSBooster",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/DignityDC/Lua-Scripting-Resources/main/FPSBooster'))()
+  	end    
+})
+
 TabLP:AddSlider({
     Name = "Walkspeed",
     Min = 10,
