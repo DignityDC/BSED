@@ -186,16 +186,30 @@ Tab1:AddButton({
 })
 
 Tab1:AddButton({
-	Name = "Minty Grooves",
+	Name = "Abyssal Trenches",
 	Callback = function()
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1700, 399, 1995)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6965.0166015625, 6972.49853515625, 7020.2607421875)
   	end    
 })
 
 Tab1:AddButton({
-	Name = "Stardustry",
+	Name = "Flourish Candyland",
 	Callback = function()
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5641, 2653, -3607)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(15050.3125, 15003.4970703125, 15128.421875)
+  	end    
+})
+
+Tab1:AddButton({
+	Name = "Mechanical Room",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(56185.7734375, 15004.9970703125, 920.6587524414062)
+  	end    
+})
+
+Tab1:AddButton({
+	Name = "Minty Grooves",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1700, 399, 1995)
   	end    
 })
 
@@ -604,6 +618,56 @@ Tab6:AddButton({
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-13772, 694, -25875)
   	end    
 })
+
+Tab6:AddButton({
+	Name = "Insurgence Geode",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5559.64990234375, 2645.194580078125, -3304.35009765625)
+  	end    
+})
+
+Tab6:AddButton({
+	Name = "Vector Geode",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5559.64990234375, 2645.194580078125, -3330.35009765625)
+  	end    
+})
+
+Tab6:AddButton({
+	Name = "Holographic Geode",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5559.64990234375, 2645.194580078125, -3356.35009765625)
+  	end    
+})
+
+Tab6:AddButton({
+	Name = "Star Geode",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5559.64990234375, 2645.194580078125, -3382.35009765625)
+  	end    
+})
+
+Tab6:AddButton({
+	Name = "Dream Geode",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5559.64990234375, 2645.194580078125, -3408.35009765625)
+  	end    
+})
+
+Tab6:AddButton({
+	Name = "Oceanic Geode",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5559.64990234375, 2645.194580078125, -3434.35009765625)
+  	end    
+})
+
+Tab6:AddButton({
+	Name = "Deepness Geode",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5559.64990234375, 2645.194580078125, -3460.35009765625)
+  	end    
+})
+
 -- Event Buttons
 Tab6:AddButton({
 	Name = "Spawn Event 1",
