@@ -48,7 +48,7 @@ local TabLP = Window:MakeTab({
 
 OrionLib:MakeNotification({
 	Name = "Script Executed!",
-	Content = "Script made by Dignity#5243",
+	Content = "Script made by iamblackxddd",
 	Time = 5
 })
 
@@ -79,6 +79,7 @@ Tab1:AddButton({
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3562, 1554, 44)
   	end    
 })
+
 
 Tab1:AddButton({
 	Name = "Iron Shafts",
