@@ -207,6 +207,13 @@ Tab1:AddButton({
 })
 
 Tab1:AddButton({
+	Name = "Stardustry",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5642.92138671875, 2652.999267578125, -3616.34326171875)
+  	end    
+})
+
+Tab1:AddButton({
 	Name = "Minty Grooves",
 	Callback = function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1700, 399, 1995)
